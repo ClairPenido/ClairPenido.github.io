@@ -1,0 +1,30 @@
+/* Estilizando letras */
+
+.titulos{
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+.escritos{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+}
+
+/* Estilizando imagens */
+
+.minha_imagem {
+    border-radius:80%;
+}
+
+.fundo{
+    background: #E9D8A6;
+}
+
+
+.button{
+    background-color: #EE9B00;
+    color: #E9D8A6;
+    text-decoration: none;
+    line-height: 55px;
+    padding: 10px;
+}

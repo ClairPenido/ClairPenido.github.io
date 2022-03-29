@@ -1,25 +1,48 @@
 /* Estilizando letras */
 
+#corpo{
+    border: 1px black solid;
+    display: flex;
+    /* flex-direction: column; */
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    text-align: center;
+}
+
+.menu{
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+
+    background-color: white;
+    width: 100px;
+    top:0px;
+    border: 2px solid red;
+
+}
+.resto{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+}
+.imagem{
+    background-color: #EE9B00;
+    flex-direction: column;
+    border: 2px green solid;
+}
+
 .titulos{
     font-family: 'Roboto Slab', serif;
     
     
-}
-.titulos, .skills-certif{
-    margin-left: 200px;
 }
 
 .escritos{
     font-family: 'Mulish', sans-serif;
 }
 
-.imagem{
-    flex: 2;
-    background-color: #EE9B00;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 /* Estilizando imagens */
 
 .minha-imagem{
@@ -42,23 +65,9 @@
 aside ul, 
 aside li {
     list-style:none;
-    margin: 0;
-    padding: 0;
 }
 
-.menu{
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: white;
-    width: 100px;
-    top:0px;
-    position: fixed;
-    padding-top: 200px;
-    padding-bottom: 200px;
 
-}
 
 nav .active li,
 nav li:hover{

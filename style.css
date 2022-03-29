@@ -2,22 +2,33 @@
 
 .titulos{
     font-family: 'Roboto Slab', serif;
-    text-align: center;
+    
+    
+}
+.titulos, .skills-certif{
+    margin-left: 200px;
 }
 
 .escritos{
     font-family: 'Mulish', sans-serif;
-    text-align: center;
 }
 
+.imagem{
+    flex: 2;
+    background-color: #EE9B00;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* Estilizando imagens */
 
-.minha_imagem {
-    border-radius:80%;
+.minha-imagem{
+    border: 5px solid black;
+    border-radius: 50%;
 }
 
 .fundo{
-    background: #E9D8A6;
+    background-color: #E9D8A6;
 }
 
 
@@ -27,4 +38,29 @@
     text-decoration: none;
     line-height: 55px;
     padding: 10px;
+}
+aside ul, 
+aside li {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100px;
+    top:0px;
+    position: fixed;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
+
+nav .active li,
+nav li:hover{
+    background-color: blue;
 }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<body>
+    <section class="first-part">
+        <h1>Meme Generator</h1>
+
+        <label class="writer" for='input'> Escreva aqui:
+            <input id="text-input" type="text" maxlength="60">
+        </label> <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file -->
+    </section>
+    <section id="meme-image-container">
+        <p id="meme-text"> Digite algo na barra acima para que seja escrito aqui </p>
+        <img id="meme-image">
+    </section>
+
+    <input id="meme-insert" accept="image/png, image/jpeg" type="file">
+
+    <div class="estilos">
+        <button id="fire"> Estilo 1 </button>
+        <button id="water"> Estilo 2 </button>
+        <button id="earth"> Estilo 3 </button>
+    </div>
+
+    <div id="meme-templates">
+        <img src="imgs/meme1.png" id="meme-1" class="memesT">
+        <img src="imgs/meme2.png" id="meme-2" class="memesT">
+        <img src="imgs/meme3.png" id="meme-3" class="memesT">
+        <img src="imgs/meme4.png" id="meme-4" class="memesT">
+    </div>
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

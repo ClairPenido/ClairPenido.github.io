@@ -6,8 +6,8 @@ Além disso, cada projeto terá um READ.ME com um breve resumo de qual era o obj
 # **Meu Portifólio**
 
 Primeiros passos ao aprender CSS e HTML nas primeiras semanas de estudo na Trybe
-Para acessar a página, só clicar no link: [Meu Portifólio](https://clairpenido.github.io/)
+Para acessar a página, só clicar no link: [Meu Portifólio](https://clairpenido.github.io/Primeiro Portifolio)
 
 # **Projeto Pixel Arte**
 
-[Pixel Artes](https://clairpenido.github.io/Pixels-Art-Project/)
+[Pixel Artes](https://clairpenido.github.io/Projetos/Pixels-Art-Project/)

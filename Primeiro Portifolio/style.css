@@ -3,7 +3,6 @@
 #corpo{
     border: 1px black solid;
     display: flex;
-    /* flex-direction: column; */
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
@@ -14,10 +13,7 @@
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
-
     background-color: white;
-    width: 100px;
-    top:0px;
     border: 2px solid red;
 
 }
@@ -26,6 +22,7 @@
     flex-shrink: 1;
     flex-basis: auto;
 }
+
 .imagem{
     background-color: #EE9B00;
     flex-direction: column;
@@ -62,14 +59,14 @@
     line-height: 55px;
     padding: 10px;
 }
-aside ul, 
+/* aside ul, 
 aside li {
     list-style:none;
-}
+} */
 
 
 
-nav .active li,
+/* nav .active li,
 nav li:hover{
     background-color: blue;
-}
+} */

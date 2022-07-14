@@ -10,4 +10,4 @@ Para acessar a página, só clicar no link: [Meu Portifólio](https://clairpenid
 
 # **Projeto Pixel Arte**
 
-[Pixel Artes](https://clairpenido.github.io/Projetos/Pixels-Art-Project)
+[Pixel Artes](https://clairpenido.github.io/Pixels-Art-Project)

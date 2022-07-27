@@ -1,0 +1,50 @@
+/* cor do site:
+#E47D60 (laranja) 
+#4A6685 (azul)
+#37393A (preto)
+#FFFFFF (branco)
+#F6E0C2 (bege)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+background-color: #E47D60;
+display: flex;
+}
+
+#aside{
+top: 0;
+left: 0;
+flex-grow: 2;
+order: 1;
+background-color: #F6E0C2;
+position: sticky;
+padding: 14px;
+border-radius: 5px;
+height: 100vh;
+justify-content: center;
+align-items: center;
+
+}
+
+#aside nav{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#info-div{
+  font-family: 'Poppins', sans-serif;
+  flex-grow: 1;
+  order: 2;
+  padding-left: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo{
+  order: 3;
+  border-radius: 50%;
+  
+}
+
+
